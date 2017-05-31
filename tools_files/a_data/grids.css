@@ -1,0 +1,38 @@
+/* Gridster styles */
+
+#widgetList{
+    height: 98%;
+}
+
+.gridster {
+    background: #FFFFFF;
+}
+
+.gridster .gs-w {
+    background: #AAAAAA;
+}
+
+
+.gridster .preview-holder {
+    border: none!important;
+    border-radius: 0!important;
+    background: rgba(0,0,0,0.2)!important;
+}
+
+.optsDiv{
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.optsButton {
+    height:100%;
+    float: left!important;
+}
+
+.container-fluid{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}

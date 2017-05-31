@@ -1,0 +1,72 @@
+.bar {
+  fill: steelblue;
+  stroke-width: 0.1;
+  stroke: #f9f9f9;
+}
+
+.axis path,
+.axis line {
+  fill: none!important;
+  stroke: black!important;
+  stroke-width: 0.5!important;
+  /*shape-rendering: crispEdges;*/
+}
+
+.legendText{
+    padding: 6px 8px;
+    background: white;
+    border-radius: 5px;
+    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 7;
+    pointer-events: auto;
+}
+
+.legendHist{
+    float: left;
+}
+
+.loading_wrapper{
+    position: absolute;
+    z-index: 200;
+    width: 96%;
+    height: 96%;
+}
+
+
+/*.imgLoading{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}*/
+
+.img_wrapper{
+    display: inline-block;
+    width: 25%;
+    float: right;
+    margin-top: 8px;
+}
+
+#myModalLabelHistogram{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.imgLoading{
+    width: 20px;
+}
+
+.loadingText{
+    display: inline-block;
+}
+
+.variablesText{
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: 90px;
+    vertical-align: middle;
+}

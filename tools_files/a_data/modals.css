@@ -1,0 +1,515 @@
+.leftMenu{
+    width: 32.666667%;
+}
+
+
+input[type=checkbox], input[type=radio] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+input[type=radio] {
+    bottom: 2px;
+}
+
+.checkbox label{
+    min-height: 0px;
+}
+
+.textLabel{
+    /*text-align: center;*/
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.textButtons{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.textButtonsleft{
+    /*text-align: center;*/
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 67px;
+}
+
+
+.textButtonsleftAspect{
+    /*text-align: center;*/
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 3%;
+}
+
+
+.textButtonsleftLabel{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.middleRow{
+    width: 27%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#xLegend{
+    font-weight: 400;
+    margin-bottom: -9px;
+    margin-left: 5%;
+}
+
+#xLegendHistogram{
+    font-weight: 400;
+    margin-bottom: -9px;
+}
+
+#yLegend{
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+#yLegendHistogram{
+    font-weight: 400;
+}
+
+.modal_buttons{
+    padding-top: 3%;
+}
+
+.modal_form_buttons{
+    padding-top: 10%;
+}
+
+.modal_form_range{
+    padding-top: 10%;
+}
+
+.modal_form_ncontourns{
+    padding-top: 3%;
+    padding-bottom: 12%;
+}
+
+/*.modal_form_Legend{
+    margin-top: 10%!important;
+}*/
+
+.modal_form_dropdown{
+    margin-top: 4%!important;
+}
+
+.modal_form_labelButtons{
+    margin-left: 0%;
+    padding-top: 7%;
+}
+
+.modal_formButton{
+    margin-left: 5%;
+}
+
+.modal_form_color{
+    margin-top: 6%;
+    /*margin-bottom: 30%;*/
+    margin-right: -14px;
+}
+
+.modal_form_colorLegend{
+    margin-top: 5%;
+    margin-right: -8px;
+}
+
+.lastColumn{
+    width: 28%!important;
+}
+
+.labelPlotCreation{
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.modalNewPlot{
+    margin-left: 12%;
+}
+
+.modalGeometry{
+    /*margin-left: 10%;*/
+    margin-bottom: 6%;
+}
+
+/*.modalRightDiv{
+    margin-left: 10%;
+}*/
+
+.modalCheck{
+    margin-bottom: 2%;
+    font-weight: 100;
+    width: 94px;
+}
+
+.modalCheckLegend{
+    margin-bottom: 2%;
+    font-weight: 100;
+    width: 70px;
+}
+
+
+.check{
+    margin-left: 15%;
+}
+
+.inputCheckMask{
+    position: absolute!important;
+    clip: rect(0,0,0,0) !important;
+    pointer-events: none !important;
+}
+
+.modal-footer{
+    padding:0!important
+}
+
+.rowMinMax{
+    margin-bottom: 4%;
+}
+
+.xLabel{
+    margin-bottom: -9px;
+}
+
+.contentOptions{
+    width: 685px;
+}
+
+.modal-options{
+    padding: 0px!important;
+}
+
+#myModalLabel{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#dragSpotHistogram{
+    /*height: 15px;
+    width: 658px;*/
+    background: #A8A8A8;
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+#dragSpot{
+    /*height: 15px;
+    width: 658px;*/
+    background: #A8A8A8;
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+#dragNewPlot{
+    height: 15px;
+    width: 472px;
+    background: #A8A8A8;
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+#adqlModalDrag{
+    height: 15px;
+    width: 598px;
+    background: #A8A8A8;
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.xAxisButton{
+    /*padding-left: 17px!important;*/
+}
+
+.labelxAxisButton{
+    padding-left: 10px!important;
+}
+
+.changeSizeButton{
+    width: 43%;
+}
+
+.divisionLine{
+    display: inline-block;
+    width: 0%;
+    padding: 0%;
+}
+
+.newLine{
+    stroke: #444;
+    stroke-width: 1px;
+}
+
+.textNumber{
+    height: 30px;
+}
+
+.colorDiv{
+    margin-bottom: -1%;
+}
+
+.sliderColor{
+    width:80%;
+}
+
+.createPlotModal{
+    width: 79%;
+}
+
+.plotType{
+    margin-left: 3%;
+}
+
+.plotTypeButton{
+    width: auto!important;
+    max-width: none!important;
+}
+
+.plotSizeDiv{
+    margin-top: 4%;
+}
+
+.plotTypeGroup{
+    margin-left: 12%;
+}
+
+.plotTypeGroupLegend{
+    /*margin-left: 9%;*/
+    border-style: solid;
+    border-color: #B1B1B1!important;
+    border-width: 1px;
+    border-radius: 4px;
+ }
+
+.outSideBoxLegend{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+
+
+.modalMax{
+    height: 3%;
+}
+
+.aspectButton{
+    width: 64%;
+    float: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.aspectButtonCarret{
+    right: 7px;
+    top: 15px;
+}
+
+.modaMin{
+    padding-right: 2%;
+}
+
+.modaMax{
+    padding-left: 2%;
+}
+
+.axesTitle{
+    margin-top: 5%;
+}
+
+.glyphButton{
+    margin-left: 5px;
+    width: 88px;
+}
+
+.legendsButton{
+    width: 108px;
+}
+
+.aspect_modal{
+    padding-top: 16%;
+    margin-bottom: 6%;
+}
+
+.layersDiv{
+   height: 201px;
+   width: 119%;
+   overflow: auto;
+}
+
+.DivLayers{
+    display: inline-block;
+    vertical-align: middle;
+    width: 85px;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0px solid rgba(255, 255, 255, 0)!important;
+}
+
+.deleteIcon{
+    margin-left: 18px;
+}
+
+.deleteIconRegions{
+    margin-left: 11px;
+}
+
+
+.DivLayers:focus {
+    text-overflow: clip;
+}
+
+.inputAlign{
+    bottom: 3px!important;
+    position: relative!important;
+}
+
+.tableButton{
+    width: 149px;
+}
+
+.tableText{
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: 111px;
+    /*vertical-align: middle;*/
+}
+
+#tableOptionDiv{
+    padding-left: 65px;
+}
+
+.checkBoxLayer{
+    width: 141px;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.btnLayer{
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 0px;
+    padding-bottom: 4px;
+}
+
+.modalLabel{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.iconSmall{
+      font-size: 0.7em;
+}
+
+.dropLink{
+    line-height: 1!important;
+    margin-bottom: 6px;
+}
+
+.textPosition{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.divPosition{
+    display: inline-block;
+    margin: -5px;
+}
+
+.positionLabel{
+    float: left;
+}
+
+.glyphBox{
+    height: 25px;
+}
+
+.glyphChoose{
+    margin-top: 3px;
+}
+
+.glyphLine{
+    margin-left: 24px;
+}
+
+.glyphUl{
+    min-width: 105px!important;
+}
+
+.buttonXAxis{
+    width: 100%;
+}
+
+.sp-replacer{
+    width: 53px;
+    background: #FFFFFF!important;
+    border-color: #ccc!important;
+    border-radius: 3px;
+}
+
+.sp-dd{
+    /*margin-left: 7px;*/
+}
+
+.sp-container{
+    border-color: #ccc!important;
+}
+
+.sp-preview{
+    background-image:none;
+}
+
+.input-group{
+    margin-left: 13px;
+}
+
+.checkRegion{
+   position: relative!important;
+}
+
+.xMinButtons{
+    margin-top: 20px;
+}
+
+.DivRegions{
+    padding-left: 0px!important;
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0px solid rgba(255, 255, 255, 0)!important;
+}
