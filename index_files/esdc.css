@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'NotesEsaBold';
+    src: url('fonts/NotesEsaBol.eot');
+    src: url('fonts/NotesEsaBol.eot?#iefix') format('embedded-opentype'), url('fonts/NotesEsaBol.ttf')
+        format('truetype'), url('fonts/notesesabol-webfont.svg#NotesEsaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotesEsaRegular';
+    src: url('fonts/NotesEsaReg.eot');
+    src: url('fonts/NotesEsaReg.eot?#iefix') format('embedded-opentype'), url('fonts/NotesEsaReg.ttf')
+        format('truetype'), url('fonts/NotesEsaReg.svg#NotesEsaReg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotesStyleBold';
+    src: url('fonts/notesstyle-boldtf-webfont.eot');
+    src: url('fonts/notesstyle-boldtf-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/notesstyle-boldtf-webfont.ttf') format('truetype'),
+        url('fonts/notesstyle-boldtf-webfont.svg#NotesStyle-BoldTfRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotesStyleRegular';
+    src: url('fonts/notesstyle-regulartf-webfont.eot');
+    src: url('fonts/notesstyle-regulartf-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/notesstyle-regulartf-webfont.ttf') format('truetype'),
+        url('fonts/notesstyle-regulartf-webfont.svg#NotesStyle-RegularTfRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.esdch2 {
+    font-family: 'NotesEsaBold', "Trebuchet MS", Tahoma, Arial;
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #3277a6;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default
+}
+
+.esdch3 {
+    font-family: 'NotesEsaBold', "Trebuchet MS", Tahoma, Arial;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #3277a6;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.esdch4 {
+    font-family: 'NotesEsaBold', "Trebuchet MS", Tahoma, Arial;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #3277a6;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default
+}
+
+#esdc_top-title {
+	height: 70px;
+	display: block;
+	font-family: NotesEsaBold,"Trebuchet MS",Tahoma,Arial;
+	font-size: 40px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0px,0px,0px,0px;
+	padding: 0px 0px 0px 0px;
+	/*background: #003366; /* ESA color theme*/
+	/*background: #280B10; /* COSMOS color theme*/
+	background: #70041b; /* COSMOS color theme*/
+	color: #e8e8e8;
+}
+
+#esdc_top-title .title {
+	/* inline-block; So we can specify a different 'top' margin */
+	/*display: inline-block;*/ 
+	margin-top: 10px;
+	padding: 0px 0px 0px 10px;
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+
+#esdc_tabs {
+    width: 100%;
+    height: 30px;
+    background: #70041b;
+    
+    color: #70041b;
+}
+
+#esdc_tab {
+    width: 100%;
+    height: 30px;
+}
+
+#esdc_tab ul {
+    height: 30px;
+    outline: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    z-index: 2;
+    font-family: NotesEsaBold,"Trebuchet MS",Tahoma,Arial;
+}
+
+#esdc_tab ul li {
+    height: 30px;
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+#esdc_tab ul li.inactive {
+    background: url(images/tab_bg.png) top left repeat-x;
+}
+
+#esdc_tab ul li.inactive:hover {
+    background: url(images/tab_bg.png) 0 -50px repeat-x;
+}
+
+#esdc_tab ul li.active {
+    /*background: #fff;*/
+    cursor:pointer;
+	/*background: #fff url(images/bg.png);*/
+	background: #fff
+}
+
+#esdc_tab ul li.active:hover {
+    /*/background: #fff;*/
+    background: #fff url(images/bg.png);
+}
+
+#esdc_tab ul li a {
+    display: block;
+    /*padding: 4px 0 16px 0;*/
+    padding: 5px 0 5px 0;
+}
+
+#esdc_tab ul li a,#esdc_tab ul li a h4 {
+    cursor: pointer;
+}
+
+#esdc_tab ul li a h4 {
+    /*padding: 13px 13px 0 12px;*/
+    padding: 0px 10px 0 9px;
+    font-size: 15px;
+}
+
+#esdc_tab ul li.active a  {
+    text-decoration: none;
+    color: #a80e29;
+    cursor:default;
+}
+
+#esdc_tab ul li.active a h4 {
+    text-decoration: none;
+    color: #a80e29;
+    cursor:default;  
+}
+
+#esdc_tab ul li .active a:hover h4 {
+    color: #d50d32;
+}
+
+#esdc_tab ul li.inactive a h4 {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#esdc_tb {
+    width: auto;
+    height: 20px;
+    background: #dfdfdf url(images/top_bg.gif) repeat;
+    border: 0px solid #c1c4c7;
+}
+
+#esdc_tb ul {
+    height: 20px;
+    width: auto;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+#esdc_tb ul li {
+    float: left;
+    display: inline;
+    height: 20px;
+    min-width: 1px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+#esdc_tb li.esdc_external {
+    background: url('images/external_link.png') no-repeat right;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+#esdc_tb li.esdc_external:hover {
+    background: url('images/external_link_hover.png') no-repeat right;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+#esdc_tb ul li div {
+    margin: 3px 10px 0 10px;
+}
+
+#esdc_tb ul li div a {
+    color: #22597e;
+    text-decoration: none;
+    text-shadow: 1px 1px white;
+    background: none;
+}
+
+#esdc_footer_bottom ul li div h3 a.active {
+    color: #0098db;
+}
+
+#esdc_tb ul li div h3 a.active:hover {
+    color: rgb(0, 152, 219);
+}
+
+#esdc_tb ul li:hover div a {
+    color: #0098db;
+}
+
+#esdc_tb li.esdc_top_sep {
+    width: 2px;
+    height: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+#esdc_footer_container {
+    clear: both;
+    width: 100%;
+    height: 36px;
+    background: #8A2038;
+}
+
+#esdc_footer_top {
+    width: 100%;
+    height: 5px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+#esdc_footer_top div {
+    float: left;
+}
+
+#esdc_footer_top h2 {
+    color: #fff;
+}
+
+#esdc_footer_top div.esdc_follow_us {
+    margin: 10px 20px 0 32px;
+}
+
+#esdc_footer_top div.esdc_follow_us div.esdch2 {
+    color: #fff;
+}
+
+#esdc_footer_top div.esdc_footer_links {
+    margin: 5px 0 0 10px;
+}
+
+#esdc_footer_top div.esdc_footer_links UL {
+    margin: 0;
+    list-style-type: none;
+}
+
+#esdc_footer_top div.esdc_footer_links UL LI {
+    margin: 0 0 0 10px;
+    float: left;
+}
+
+#esdc_footer_top div.esdc_footer_links A IMG {
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+#esdc_footer_top div.esdc_footer_links A:hover IMG {
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1
+}
+
+.esdc-system-warning-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color: #FF4444;
+}
